@@ -1,0 +1,155 @@
+@import url('https://fonts.google.com/css2?family=Poppins:Weights: 200, 400, 600&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+font-size: 15px;
+font-family: "poppins", sans-serif;
+background-color: hsl(0, 0%, 98%);
+}
+
+main{
+ display: flex;
+ justify-content: center;
+}
+
+section.page{
+text-align: center;
+}
+
+main section.page section.page-header{
+	font-size: 100%;
+}
+
+main section.page section.page-header p{
+	font-size: 2em;
+	color: hsl(229, 6%, 66%);
+	margin-bottom: 1px;
+}
+
+main section.page section.page-header h1{
+	font-size: 2em;
+	color:hsl(234, 12%, 34%);
+	font-weight: 700;
+	margin-top: 5px;
+	margin-bottom: 1px;
+}
+
+main section.page section.page-header p.small{
+	font-size: 1em;
+	color :hsl(229, 6%, 66%);
+	margin-top: 16px;
+	line-height: 0.025em;
+}
+
+main section.page section.page-card {
+	display: flex;
+	align-items: center;
+	margin:0 auto;
+}
+
+@media screen and (max-width: 375px){
+	main section.page section.page-card{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+main section.page section.page-card div.Supervisor {
+	
+	width: 18em;
+	height: 13em;
+	padding: 1em;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px #dcdcdc;
+	margin-top: 70px;
+	margin-right: 25px;
+	border-top: 4px solid hsl(180, 62%, 55%);
+  }
+
+  @media screen and (max-width: 375px){
+  	main section.page section.page-card div.supervisor {
+  		margin: 0 auto;
+  		margin-right: none;
+  	}
+  }
+
+main section.page section.page-card div.Calculator {
+
+	width: 18em;
+	height: 13em;
+	padding: 1em;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px #dcdcdc;
+	margin-top: 50px;
+	margin-left: 25px;
+	border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+ @media screen and (max-width: 375px){
+  	main section.page section.page-card div.calculator {
+  		margin: 0 auto;
+  		margin-left: none;
+  	}
+  }
+
+main section.page section.page-card  div.Team-Builder {
+
+	width: 18em;
+	height: 13em;;
+	padding: 1em;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px #dcdcdc;
+	margin: 0 auto;
+	margin-top: 50px;
+	border-top: 4px solid  hsl(0, 78%, 62%);
+}
+
+main section.page section.page-card div.Karma {
+
+	width: 18em;
+	height: 13em;
+	padding: 1em;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px #dcdcdc;
+	margin: 0 auto;
+	margin-top: 25px;
+	border-top: 4px solid  hsl(34, 97%, 64%);
+}
+
+main section.page section.page-card h3 {
+	display: flex;
+	justify-content: start;
+	font-family: sans-serif;
+    color: hsl(234,12%, 34%);
+    margin-bottom: 1px;
+
+}
+
+main section.page section.page-card p {
+	display: flex;
+	justify-content: start;
+	text-align: left;
+	margin-top: 10px;
+	font-family: sans-serif;
+    color: hsl(229, 6%, 66%);
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+main section.page section.page-card img {
+	position: relative;
+	left: 6em;
+	width:3.5em;
+	margin-top: 10px;
+
+}
+
+
+
